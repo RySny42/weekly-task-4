@@ -1,0 +1,5 @@
+#I think this is the first part of dragon count
+dragon_data = make_request("type/dragon")
+
+
+
