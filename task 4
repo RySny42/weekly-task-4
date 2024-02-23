@@ -1,5 +1,8 @@
 #I think this is the first part of dragon count
 dragon_data = make_request("type/dragon")
 
+tyranitar_data = make_request("pokemon/tyranitar")
+tyranitar_types = [t['type']['name'] for t in tyranitar_data['types']]
+tyranitar_abilities = [a['ability']['name'] for a in tyranitar_data['abilities']]
 
-
+dragon_data = make_request("type/dragon")
